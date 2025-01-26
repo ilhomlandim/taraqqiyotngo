@@ -8,24 +8,23 @@ import {
   SunIcon,
 } from "@radix-ui/react-icons";
 import { useEffect, useState } from "react";
-import LogoImg from "/public/logo.png";
-import { useRouter } from "next/router";
-import { Link } from "@/i18n/routing";
+
 import LanguageChanger from "./LanguageChanger";
+import Logo from "./Logo";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+  const [theme, setTheme] = useState(null);
 
   function toggleTheme(theme) {
     const html = document.documentElement;
     if (theme === "dark") {
       html.classList.add("dark");
       setTheme("dark");
-      localStorage.setItem("theme", "dark");
+      localStorage?.setItem("theme", "dark");
     } else {
       html.classList.remove("dark");
-      localStorage.removeItem("theme");
+      localStorage?.removeItem("theme");
       setTheme("light");
     }
   }
@@ -38,26 +37,17 @@ export default function Header() {
     }
   }
 
-  function changeLanguage(locale) {
-    const router = useRouter();
-
-    router.push(router.pathname, router.asPath, { locale });
-  }
-
   useEffect(() => {
-    toggleTheme(theme);
+    if (typeof window !== "undefined") {
+      const theme = localStorage.getItem("theme");
+      toggleTheme(theme);
+    }
   }, []);
 
   return (
     <header className="py-5 sticky top-0 left-0 right-0 w-full shadow-sm z-50 bg-primary-foreground">
       <div className="base-container flex justify-between items-center">
-        <Link className="font-bold text-2xl" href="/">
-          <img
-            className="object-contain w-[150px] md:w-[200px]"
-            width={200}
-            src={LogoImg.src}
-          />
-        </Link>
+        <Logo />
 
         <Desktop />
         <Mobile open={open} theme={theme} handleTheme={handleTheme} />

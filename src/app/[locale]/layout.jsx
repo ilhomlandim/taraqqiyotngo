@@ -20,7 +20,7 @@ export default async function RootLayout({ children, params: { locale } }) {
     notFound();
   }
 
-  const messages = await getMessages();
+  const messages = await getMessages(locale);
 
   return (
     <html className="h-full" lang={locale}>

@@ -1,16 +1,15 @@
 "use client";
-import { Button } from "./ui/button";
-import { useState } from "react";
+import { Button, buttonVariants } from "./ui/button";
+import { useEffect, useState } from "react";
 import { Link } from "@/i18n/routing";
 import { ChevronDownIcon, ChevronUpIcon } from "@radix-ui/react-icons";
+import { useParams } from "next/navigation";
 
 export default function LanguageChanger() {
+  const { locale } = useParams();
   const [open, setOpen] = useState(false);
-  const [currentLanguage, setCurrentLanguage] = useState({
-    locale: "en",
-    text: "English",
-  });
-  const [languages, setLanguages] = useState({
+
+  const languages = {
     uz: {
       locale: "uz",
       text: "O'zbek",
@@ -23,15 +22,14 @@ export default function LanguageChanger() {
       locale: "ru",
       text: "Русский",
     },
-  });
+  };
 
-  function handleClick(locale) {
+  const [currentLanguage, setCurrentLanguage] = useState(languages.en);
+
+  useEffect(() => {
     setOpen(false);
-    setLanguages((prev) => {
-      return prev[locale];
-    });
-    setCurrentLanguage(prev[locale]);
-  }
+    setCurrentLanguage(languages[locale]);
+  }, [locale]);
 
   return (
     <div className="relative w-[150px]">
@@ -48,16 +46,15 @@ export default function LanguageChanger() {
             return (
               currentLanguage.locale !== locale && (
                 <li key={index}>
-                  <Button
-                    onClick={() => handleClick(locale)}
-                    className="w-full"
-                    asChild
-                    variant="outline"
+                  <Link
+                    className={`${buttonVariants({
+                      variant: "outline",
+                    })} w-full`}
+                    href="/"
+                    locale={locale}
                   >
-                    <Link href="/" locale={locale}>
-                      {text}
-                    </Link>
-                  </Button>
+                    {text}
+                  </Link>
                 </li>
               )
             );

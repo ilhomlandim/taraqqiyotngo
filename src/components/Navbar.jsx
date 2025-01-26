@@ -19,28 +19,8 @@ const links = [
     path: "/projects",
   },
   {
-    text: "Services",
-    path: "/services",
-  },
-  {
-    text: "About us",
-    path: "/about",
-  },
-  {
-    text: "History",
-    path: "/history",
-  },
-  {
     text: "Team",
     path: "/team",
-  },
-  {
-    text: "Work environment",
-    path: "/job",
-  },
-  {
-    text: "Contact us",
-    path: "/contact",
   },
 ];
 
@@ -84,7 +64,7 @@ export function Mobile({ open, theme, handleTheme }) {
             })}
           </ul>
         </nav>
-        <div className="base-container flex gap-3">
+        <div className="base-container flex gap-3 justify-center">
           <LanguageChanger />
           <Button onClick={handleTheme} variant="outline">
             {theme === "light" ? <MoonIcon /> : <SunIcon />}

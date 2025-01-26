@@ -10,5 +10,75 @@
     "Work environment": "Work environment",
     "Contact us": "Contact us",
     "Language": "Language"
+  },
+  "indexHero": {
+    "first": "Innovative solutions for the development of living conditions of the population",
+    "second": "Application of advanced technologies to improve infrastructure",
+    "third": "Socio-economic support for increasing the role of women in water management",
+    "fourth": "Capacity and institutional development"
+  },
+  "Partners": { "title": "Partners" },
+  "Statistics": {
+    "title": "Statistics",
+    "box1": "Village residents were provided with clean drinking water",
+    "box2": "Kilometers of water pipes laid"
+  },
+  "services": {
+    "pageService": "Services offered",
+    "pagesServiceTitle": "We offer various services aimed at improving the well-being of the population.",
+
+    "box1": "Technical design",
+    "box2": "Surveys and Research",
+    "box3": "Use of high-quality components and materials",
+    "box4": "Involving youth and women"
+  },
+  "AboutUs": {
+    "AboutTitle": "Republican center for the development of living conditions of the population",
+    "AboutDesc": "The priority tasks of the Republican Center for the Development of Living Conditions of the Population of the Republic of Uzbekistan “Taraqqiyot” are as follows:",
+
+    "first": "improving rural infrastructure",
+    "second": "innovative design using software",
+    "third": "construction of a drinking water supply system",
+    "fourth": "technical monitoring of construction work",
+    "fifth": "purchase and use of high-quality materials",
+    "sixth": "training personnel to operate the water supply system",
+    "seventh": "training personnel in the design of water supply systems",
+    "eighth": "socio-economic support for women",
+    "nineth": "creation of new jobs",
+    "tenth": "conducting trainings on financial management",
+    "eleventh": "conducting management trainings (human resources management)",
+    "twelfth": "development of tariff plans for drinking water",
+    "thirteenth": "preparation of project documentation and further technical support and service",
+
+    "paragref": "These goals are achieved through the coordinated efforts of experts with a rich skills and experience in the water sector.",
+    "secondParagref": "The organizational structure of the center supports the concept of improving the living standards of the population by increasing their knowledge and utilizing decision-making techniques to address social and infrastructure gaps"
+  },
+
+  "history": {
+    "mainTitle": "Background of the creation Community and development support center NGO “Taraqqiyot”.",
+    "firstDesc": "Community and development center “Taraqqiyot” was created based on the platform of the Water Supply and Sanitation Project for Rural Areas of the Ferghana Valley of the Republic of Uzbekistan. The project implementation period was from 2004 to 2019. The project was funded by the Swiss Agency for Development and Cooperation of the Swiss Confederation and was implemented by the International Secretariat for Water Canada. During this period, 32 systems were built, more than 160,000 thousand people in rural areas gained access to clean drinking water along with improved sanitation and hygiene conditions.",
+    "secondDesc": "Community and development center “Taraqqiyot” was created with the aim of continuing the activities of the previous infrastructure project while simultaneously implementing other socially significant projects for beneficiaries, especially in rural areas where there are problems in the social life of society.",
+    "third": "This project was aimed at changes or solutions to outdated or dysfunctional forms of social life since post-Soviet times. And also eliminating the stereotype of dependency, when people are accustomed to receiving everything from the state free of charge without any effort."
+  },
+  "Team": {
+    "TeamTitle": "Team members",
+    "TeamDesc": "The “Taraqqiyot” NGO team consists of specialists and practitioners of various specialties and has united to contribute to the development of the local community. Our organization is always open to new members who can join our team.",
+
+    "Feruza": "Feruza Madalieva",
+    "FeruzaWork": "Executive Director / Chief Specialist",
+
+    "Nurbek": "Nurbek Pulatov",
+    "NurbekWork": "Empowerment Specialist / CD Specialist",
+
+    "Shuhrat": "Shuhrat Azizov",
+    "ShuhratWork": "Chief Engineer"
+  },
+  "callFooter": {
+    "Address": "Address",
+    "st": "st. Vatan ravnaqi 18, Fergana",
+
+    "lookingJob": "Looking for a job? Submit your resume",
+
+    "TelephoneNumber": "Telephone number:"
   }
 }
