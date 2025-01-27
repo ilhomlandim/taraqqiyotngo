@@ -23,12 +23,12 @@ export default function Partners() {
     <section className="py-14">
       <div className="base-container">
         <h2 className="text-4xl font-bold mb-10">{t("title")}</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-7 gap-10">
+        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-7 gap-10">
           {partners.map((logo, index) => {
             return (
               <Image
                 key={index}
-                className="w-full place-self-center grayscale hover:grayscale-0 transition-all duration-500"
+                className="w-full place-self-center grayscale hover:grayscale-0 transition-all"
                 width={200}
                 priority
                 height={200}

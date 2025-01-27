@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import Gallery from "@/components/Gallery";
 import Header from "@/components/Header";
 import IndexHero from "@/components/IndexHero";
 import OurServices from "@/components/OurServices";
@@ -14,6 +15,7 @@ export default function Home() {
         <Partners />
         <Statistics />
         <OurServices />
+        <Gallery />
       </main>
       <Footer />
     </>
