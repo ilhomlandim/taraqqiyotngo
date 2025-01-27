@@ -5,6 +5,7 @@ import IndexHero from "@/components/IndexHero";
 import OurServices from "@/components/OurServices";
 import Partners from "@/components/Partners";
 import Statistics from "@/components/Statistics";
+import TeamCard from "@/components/TeamCard";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Partners />
         <Statistics />
         <OurServices />
+        <TeamCard />
         <Gallery />
       </main>
       <Footer />
