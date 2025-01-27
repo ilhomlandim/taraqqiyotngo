@@ -14,12 +14,16 @@ function TeamCard(props) {
   return (
     <Card className=" hover:shadow-2xl flex flex-col justify-between text-mainGray">
       <CardHeader>
-        <CardTitle className="text-xl font-semibold">{title}</CardTitle>
+        <CardTitle className="md:text-xl  text-lg font-semibold px-2">
+          {title}
+        </CardTitle>
       </CardHeader>
       <CardContent>
-        <CardDescription>{disc}</CardDescription>
+        <CardDescription className="text-sm md:text-base w-8/12 text-justify">
+          {disc}
+        </CardDescription>
       </CardContent>
-      <CardFooter className="p-0 h-[500px]  overflow-hidden object-contain w-full">
+      <CardFooter className="p-0 h-[300px] md:h-[500px]  overflow-hidden object-contain w-full">
         <Image
           src={cardImg}
           width={500}

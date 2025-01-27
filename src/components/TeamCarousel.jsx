@@ -64,16 +64,18 @@ function TeamCarousel() {
         </p>
       </div>
 
-      <div className="embla overflow-hidden w-full pt-20 " ref={emblaRef}>
+      <div
+        className="embla overflow-visible md:overflow-hidden w-full px-2 pt-20 "
+        ref={emblaRef}
+      >
         <div className="embla__container  gap-10 flex items-center ">
           {teamMembers.map((member, index) => {
             const cardImg = `/team/${member.img}.jpg`;
 
             return (
-              <div className="w-[550px] min-w-[400px] ">
+              <div key={index} className="w-[550px] min-w-[400px] ">
                 <TeamCard
                   className="embla__slide h-[650px] min-h-[400px] "
-                  key={index}
                   data={{
                     title: member.name,
                     disc: member.position,

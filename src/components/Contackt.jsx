@@ -8,7 +8,7 @@ function ContacktComponent() {
   const footerSection = useTranslations("callFooter");
   return (
     <div>
-      <div className="grid grid-cols-3 mt-40 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-40 gap-8">
         <div className="rounded-2xl relative border-blue-400 h-48 border flex flex-col justify-center gap-4 items-center">
           <Image
             src={LocationImg.src}
@@ -30,7 +30,7 @@ function ContacktComponent() {
           </h3>
           <h4>{footerSection("st")}</h4>
         </div>
-        <div className="rounded-xl pl-28 relative border-blue-700 flex flex-col items-center text-center justify-between p-8 h-48 border">
+        <div className="rounded-xl pl-28 relative border-blue-700 flex flex-col items-center text-left md:text-center justify-between p-8 h-48 border">
           <Image
             src={EmailImg.src}
             className="absolute"
