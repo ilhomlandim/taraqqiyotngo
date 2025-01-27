@@ -69,7 +69,7 @@ function TeamCarousel() {
         className="embla overflow-visible md:overflow-hidden w-full px-2 pt-20 "
         ref={emblaRef}
       >
-        <div className="embla__container  gap-10 flex items-center ">
+        <div className="embla__container px-10 gap-10 flex items-center ">
           {teamMembers.map((member, index) => {
             const cardImg = `/team/${member.img}.jpg`;
 
