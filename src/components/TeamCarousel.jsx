@@ -7,6 +7,7 @@ import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "@mui/icons-material";
 import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
 import ContacktComponent from "./Contackt";
+import ScrollToTopButton from "./ScrollButton";
 function TeamCarousel() {
   const params = useParams();
 
@@ -55,7 +56,10 @@ function TeamCarousel() {
   }, [emblaApi, onSelect]);
 
   return (
-    <div className="my-10 base-container   overflow-hidden items-center">
+    <div
+      id="top"
+      className="my-10 base-container  overflow-hidden items-center"
+    >
       <div className="flex flex-col items-center gap-4">
         <h2 className="text-mainGray my-4 text-3xl sm:text-5xl text-center">
           {t("TeamTitle")}
@@ -69,7 +73,7 @@ function TeamCarousel() {
         className="embla overflow-visible md:overflow-hidden w-full px-2 pt-20 "
         ref={emblaRef}
       >
-        <div className="embla__container  gap-10 flex items-center ">
+        <div className="embla__container px-10  gap-10 flex items-center ">
           {teamMembers.map((member, index) => {
             const cardImg = `/team/${member.img}.jpg`;
 
@@ -113,7 +117,9 @@ function TeamCarousel() {
       >
         Show more
       </button>
+      <a href="#top">Top</a>
       <ContacktComponent />
+      <ScrollToTopButton />
     </div>
   );
 }
