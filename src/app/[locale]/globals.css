@@ -72,4 +72,7 @@
   .base-container {
     @apply container mx-auto px-5;
   }
+  .text-mainGray {
+    color: #747d88;
+  }
 }

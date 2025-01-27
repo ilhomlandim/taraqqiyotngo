@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import IndexHero from "@/components/IndexHero";
 import Partners from "@/components/Partners";
 import Statistics from "@/components/Statistics";
+import TeamCarousel from "@/components/TeamCarousel";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <IndexHero />
         <Partners />
         <Statistics />
+        <TeamCarousel />
       </main>
       <Footer />
     </>
