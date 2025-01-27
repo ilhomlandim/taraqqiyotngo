@@ -1,11 +1,13 @@
 "use client";
+import { ArrowUpCircleIcon } from "lucide-react";
 import { useState, useEffect } from "react";
-
-export default function ScrollToTopButton() {
+function ScrollToTopButton() {
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
+      // console.log(window.screenY);
+
       if (window.scrollY > 100) {
         setShowButton(true);
       } else {
@@ -18,7 +20,7 @@ export default function ScrollToTopButton() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  });
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -32,11 +34,12 @@ export default function ScrollToTopButton() {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600 transition-all"
+          className="fixed bottom-40  right-8  text-black  z-50 p-3 rounded-full shadow-lg hover:bg-blue-600 transition-all"
         >
-          ↑ To Top
+          <ArrowUpCircleIcon width={20} height={20} />
         </button>
       )}
     </>
   );
 }
+export default ScrollToTopButton;
