@@ -19,7 +19,7 @@ const EmblaCarousel = (props) => {
           {slides.map(({ text, img }, index) => {
             return (
               <div className="embla__slide" key={index}>
-                <div className="blur-sm">
+                <div>
                   <Image
                     className="embla__slide__img"
                     width={700}
@@ -29,7 +29,7 @@ const EmblaCarousel = (props) => {
                     alt={`Image ${index + 1}`}
                   />
                 </div>
-                <div className="absolute z-50 top-5 left-10 bg-primary/50 p-1 sm:top-10 sm:left-10 md:top-16 md:left-16 max-w-[80%] md:max-w-[50%]">
+                <div className="absolute z-50 top-5 left-10 bg-primary/40 backdrop-blur-md rounded-md overflow-hidden p-1 sm:top-10 sm:left-10 md:top-16 md:left-16 max-w-[80%] md:max-w-[50%]">
                   <div className="rounded w-full">
                     <h1 className="text-xl text-white font-bold  sm:text-2xl md:text-3xl xl:text-4xl">
                       {text}
