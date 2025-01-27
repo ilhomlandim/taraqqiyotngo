@@ -14,7 +14,7 @@ function TeamCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
     align: "start",
-    slidesToScroll: 3,
+    slidesToScroll: 2,
   });
   const [selectedIndex, setSelectedIndex] = useState(0);
   const router = useRouter();
