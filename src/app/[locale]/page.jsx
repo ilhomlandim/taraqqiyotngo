@@ -4,8 +4,9 @@ import Header from "@/components/Header";
 import IndexHero from "@/components/IndexHero";
 import OurServices from "@/components/OurServices";
 import Partners from "@/components/Partners";
+import ScrollToTopButton from "@/components/ScrollButton";
 import Statistics from "@/components/Statistics";
-import TeamCard from "@/components/TeamCard";
+import TeamCarousel from "@/components/TeamCarousel";
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
         <Partners />
         <Statistics />
         <OurServices />
-        <TeamCard />
+        <TeamCarousel />
         <Gallery />
+        <ScrollToTopButton />
       </main>
       <Footer />
     </>

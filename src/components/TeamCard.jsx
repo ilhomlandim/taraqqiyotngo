@@ -9,6 +9,8 @@ import {
 } from "@/components/ui/card";
 
 function TeamCard(props) {
+  //   console.log(props.data);
+
   const { title, disc, cardImg } = props.data;
 
   return (

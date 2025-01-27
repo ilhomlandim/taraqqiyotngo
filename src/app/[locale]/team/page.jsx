@@ -1,5 +1,6 @@
 "use client";
 import ContacktComponent from "@/components/Contackt";
+import ScrollToTopButton from "@/components/ScrollButton";
 import TeamCard from "@/components/TeamCard";
 import { useTranslations } from "next-intl";
 
@@ -8,7 +9,7 @@ function Team() {
   const teamMembers = t.raw("members");
 
   return (
-    <div className="my-10 base-container mx-auto  py-20">
+    <div className="my-10 base-container mx-auto relative py-20">
       <div className="flex flex-col items-center gap-4 mb-10">
         <h1 className="text-mainGray my-4 text-3xl sm:text-5xl text-center">
           {t("TeamTitle")}
@@ -43,6 +44,7 @@ function Team() {
         })}
       </div>
       <ContacktComponent />
+      <ScrollToTopButton />
     </div>
   );
 }

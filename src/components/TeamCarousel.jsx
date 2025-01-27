@@ -56,10 +56,7 @@ function TeamCarousel() {
   }, [emblaApi, onSelect]);
 
   return (
-    <div
-      id="top"
-      className="my-10 base-container  overflow-hidden items-center"
-    >
+    <div className="my-10 base-container  overflow-hidden items-center">
       <div className="flex flex-col items-center gap-4">
         <h2 className="text-mainGray my-4 text-3xl sm:text-5xl text-center">
           {t("TeamTitle")}
@@ -117,7 +114,6 @@ function TeamCarousel() {
       >
         Show more
       </button>
-      <a href="#top">Top</a>
       <ContacktComponent />
       <ScrollToTopButton />
     </div>
