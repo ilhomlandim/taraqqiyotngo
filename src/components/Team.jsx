@@ -93,7 +93,7 @@ export default function Team() {
     <section className="py-14">
       <div className="base-container">
         <h1 className="text-6xl font-bold mb-10">{t("TeamTitle")}</h1>
-        <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
+        <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
           {members.map(({ description, img, title }, index) => {
             return (
               <li key={index}>
