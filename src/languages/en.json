@@ -68,7 +68,7 @@
     "third": "This project was aimed at changes or solutions to outdated or dysfunctional forms of social life since post-Soviet times. And also eliminating the stereotype of dependency, when people are accustomed to receiving everything from the state free of charge without any effort."
   },
   "Team": {
-    "TeamTitle": "Team members",
+    "TeamTitle": "Our Team",
     "TeamDesc": "The “Taraqqiyot” NGO team consists of specialists and practitioners of various specialties and has united to contribute to the development of the local community. Our organization is always open to new members who can join our team.",
     "TeamPageDesc": "The team of the Republican Center 'Tarakkiyot' brings together experienced experts and specialists in the field of introducing innovative methods and technologies aimed at improving the socio-economic well-being of the population of Uzbekistan through the development of local infrastructure.  ",
     "TeamPageBottomDisc": "We are always happy to welcome new specialists and experts who are ready to contribute to the development of key sectors of the economy of the Republic of Uzbekistan.",
@@ -83,7 +83,43 @@
 
     "Shuhrat": "Shuhrat Azizov",
     "ShuhratWork": "Chief Engineer",
-    "ShuhratImg": "shuhratazizov"
+    "ShuhratImg": "shuhratazizov",
+
+    "Fotima": "Fatima Abduvohobova",
+    "FotimaWork": "Social Accountability Specialist / Trainer",
+
+    "Sherzod": "Sherzod Amirov",
+    "SherzodWork": "Public Relations Specialist",
+
+    "Furqat": "Furkat Usmonov",
+    "FurqatWork": "Information Technology Expert",
+
+    "Alisher": "Alisher Orziboev",
+    "AlisherWokr": "Chief Financial Officer / Accountant",
+
+    "Nargiza": "Nargiza Khudoynazarova",
+    "NargizaWork": "Climate Change Impact Expert",
+
+    "Shahnoza": "Shahnoza Nabieva",
+    "ShahnozaWork": "Hygiene and Sanitation Specialist / Trainer",
+
+    "Saida": "Saida Gozieva",
+    "SaidaWork": "Social Responsibility Specialist",
+
+    "Dilshod": "Dilshod Musaev",
+    "DilshodWork": "Entrepreneurship Support Specialist",
+
+    "Javohir": "Javohir Shamsutdinov",
+    "JavohirWork": "Monitoring and Evaluation Specialist",
+
+    "DilshodT": "Dilshod Toshtemirov",
+    "DilshodTWork": "Monitoring and Evaluation Specialist",
+
+    "Dildora": "Dildora Mirzaeva",
+    "DildoraWork": "Office manager",
+
+    "DilshodA": "Dilshod Akhmedov",
+    "DilshodAWork": "Chief Social Component Specialist"
   },
   "callFooter": {
     "Address": "Address",
