@@ -19,7 +19,7 @@ function TeamCard({ info: { title, description, img } }) {
       </CardContent>
       <CardFooter className="p-0">
         <Image
-          className="w-full h-full max-h-[500px] object-cover grayscale group-hover:grayscale-0 transition-all"
+          className="w-full h-full min-h-[500px] max-h-[500px] object-cover grayscale group-hover:grayscale-0 transition-all"
           src={`/team/${img}.jpg`}
           width={600}
           height={600}
