@@ -11,7 +11,6 @@ import IndexTeam from "@/components/IndexTeam";
 export default function Home(params) {
   return (
     <>
-      {JSON.stringify(params)}
       <Header />
       <main className="grow">
         <IndexHero />

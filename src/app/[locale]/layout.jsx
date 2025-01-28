@@ -5,6 +5,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { redirect } from "next/navigation";
+import ScrollToTopButton from "@/components/ScrollButton";
 
 export const metadata = {
   title: "Taraqqiyot NGO",
@@ -26,6 +27,7 @@ export default async function RootLayout({ children, params: { locale } }) {
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
+        <ScrollToTopButton />
       </body>
     </html>
   );

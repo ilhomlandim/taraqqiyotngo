@@ -51,7 +51,6 @@ export default function Header() {
     >
       <div className="base-container flex justify-between items-center">
         <Logo />
-
         <Desktop />
         <Mobile open={open} theme={theme} handleTheme={handleTheme} />
         <Button

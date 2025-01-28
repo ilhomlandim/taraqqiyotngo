@@ -29,7 +29,7 @@ const EmblaCarousel = ({ slides }) => {
             <div className="embla__slide" key={index}>
               <div>
                 <Image
-                  className="embla__slide__img h-44 sm:h-60 xl:h-96"
+                  className="embla__slide__img h-44 sm:h-60 xl:h-[420px]"
                   width={700}
                   height={300}
                   priority
@@ -37,7 +37,7 @@ const EmblaCarousel = ({ slides }) => {
                   alt={`Image ${index + 1}`}
                 />
               </div>
-              <div className="absolute z-50 top-5 left-10 bg-primary/40 backdrop-blur-md rounded-md overflow-hidden p-1 sm:top-10 sm:left-10 md:top-16 md:left-16 max-w-[80%] md:max-w-[50%]">
+              <div className="absolute z-50 bottom-5 left-10 bg-primary/40 backdrop-blur-md rounded-lg overflow-hidden sm:bottom-10 sm:left-10 md:bottom-16 md:left-16 max-w-[80%] md:max-w-[50%] p-3">
                 <div className="rounded w-full">
                   <h1 className="text-xl text-white font-bold sm:text-2xl md:text-3xl xl:text-4xl">
                     {text}
