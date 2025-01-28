@@ -6,7 +6,7 @@ import IndexHero from "@/components/IndexHero";
 import OurServices from "@/components/OurServices";
 import Partners from "@/components/Partners";
 import Statistics from "@/components/Statistics";
-import Team from "@/components/Team";
+import IndexTeam from "@/components/IndexTeam";
 
 export default function Home(params) {
   return (
@@ -19,7 +19,7 @@ export default function Home(params) {
         <Statistics />
         <OurServices />
         <Gallery />
-        <Team />
+        <IndexTeam />
         <Contact />
       </main>
       <Footer />

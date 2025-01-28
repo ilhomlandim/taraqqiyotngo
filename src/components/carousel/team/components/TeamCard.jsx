@@ -15,7 +15,9 @@ function TeamCard({ info: { title, description, img } }) {
         <CardTitle>{title}</CardTitle>
       </CardHeader>
       <CardContent>
-        <CardDescription>{description}</CardDescription>
+        <CardDescription className="!line-clamp-1">
+          {description}
+        </CardDescription>
       </CardContent>
       <CardFooter className="p-0">
         <Image

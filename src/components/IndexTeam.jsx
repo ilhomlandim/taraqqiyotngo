@@ -1,15 +1,12 @@
+import { Link } from "@/i18n/routing";
+import Carousel from "./carousel/team";
+import { useLocale } from "next-intl";
+import { buttonVariants } from "./ui/button";
 import { useTranslations } from "next-intl";
-import {
-  Card,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "./ui/card";
-import Image from "next/image";
 
-export default function Team() {
+export default function IndexTeam() {
   const t = useTranslations("Team");
+  const { locale } = useLocale();
 
   const members = [
     {
@@ -92,32 +89,15 @@ export default function Team() {
   return (
     <section className="py-14">
       <div className="base-container">
-        <h1 className="text-6xl font-bold mb-10">{t("TeamTitle")}</h1>
-        <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
-          {members.map(({ description, img, title }, index) => {
-            return (
-              <li key={index}>
-                <Card className="hover:bg-primary-foreground transition">
-                  <CardHeader>
-                    <CardTitle>{title}</CardTitle>
-                    <CardDescription className="!line-clamp-1">
-                      {description}
-                    </CardDescription>
-                  </CardHeader>
-                  <CardFooter className="p-0">
-                    <Image
-                      className="w-full object-cover h-[500px]"
-                      width={300}
-                      height={300}
-                      src={`/team/${img}.jpg`}
-                      alt={img}
-                    />
-                  </CardFooter>
-                </Card>
-              </li>
-            );
-          })}
-        </ul>
+        <h2 className="text-4xl font-bold mb-10">{t("TeamTitle")}</h2>
+        <div className="mb-5">
+          <Carousel slides={members} />
+        </div>
+        <div className="flex justify-end">
+          <Link className={buttonVariants()} locale={locale} href="/team">
+            Ko'proq
+          </Link>
+        </div>
       </div>
     </section>
   );

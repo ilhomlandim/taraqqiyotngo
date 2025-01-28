@@ -1,13 +1,14 @@
 "use client";
 import { Button, buttonVariants } from "./ui/button";
 import { useEffect, useState } from "react";
-import { Link } from "@/i18n/routing";
+import { Link, usePathname } from "@/i18n/routing";
 import { ChevronDownIcon, ChevronUpIcon } from "@radix-ui/react-icons";
 import { useParams } from "next/navigation";
 
 export default function LanguageChanger() {
   const { locale } = useParams();
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   const languages = {
     uz: {
@@ -50,7 +51,7 @@ export default function LanguageChanger() {
                     className={`${buttonVariants({
                       variant: "outline",
                     })} w-full`}
-                    href="/"
+                    href={pathname}
                     locale={locale}
                   >
                     {text}
