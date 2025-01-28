@@ -2,33 +2,34 @@ import { Bolt, Puzzle, Ribbon, ScanSearch } from "lucide-react";
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 
 export default function OurServices() {
-  const t = useTranslations("services");
   const services = [
     {
-      title: t("box1"),
-      description: t("box1Desc"),
+      title: "Texnik loyihalash",
+      description:
+        "Texnik tarafdan barchasini o'zimiz qilamiz. Muammo yechish bizga ota me'ros.",
       icon: <Bolt className="mb-3" />,
     },
     {
-      title: t("box2"),
-      description: t("box2Desc"),
+      title: "So'rovlar va tadqiqotlar",
+      description: "Aholi o'rtasida tez-tez so'rov o'tkazib turamiz.",
       icon: <ScanSearch className="mb-3" />,
     },
     {
-      title: t("box3"),
-      description: t("box3Desc"),
+      title: "Sifatli qismlar va materiallardan foydalanish",
+      description:
+        "Albatta eng so'ngi texnalogiya va materillardan foydalanamiz. Sifat birinichi o'rinda turadi biz uchun.",
       icon: <Puzzle className="mb-3" />,
     },
     {
-      title: t("box4"),
-      description: t("box4Desc"),
+      title: "Yoshlar va ayollarni jalb qilish",
+      description: "Bizda ayol va qizlarga alohida e'tibor qaratiladi.",
       icon: <Ribbon className="mb-3" />,
     },
   ];
   return (
     <section className="py-14">
       <div className="base-container">
-        <h2 className="text-4xl font-bold mb-10">{t("pageService")}</h2>
+        <h2 className="text-4xl font-bold mb-10">Xizmatlar</h2>
         <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
           {services.map(({ title, description, icon }, index) => {
             return (
