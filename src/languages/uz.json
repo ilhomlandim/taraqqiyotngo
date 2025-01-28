@@ -73,6 +73,7 @@
     "TeamDesc": "“Taraqqiyot” NNT jamoasi turli ixtisoslikdagi mutaxassislar va amaliyotchilardan tashkil topgan va mahalliy hamjamiyat rivojiga hissa qo’shish uchun birlashgan. Tashkilotimiz har doim jamoamizga qo’shilish uchun yangi a’zolar uchun ochiq.",
     "TeamPageDesc": "Respublika Markazi “Taraqqiyot” jamoasi, O‘zbekiston hududidagi mahalliy infratuzilma rivojlanishiga yo‘naltirilgan innovatsion usullar va texnologiyalarni tanishtirish sohasida tajribali mutaxassislar va mutaxassislar jamoasini biriga jalb qiladi, ularning ijtimoiy-iqtisodiy xayotini yaxshilashga qaratilgan. ",
     "TeamPageBottomDesc": "Biz doim O‘zbekiston Respublikasining eng muhim sohalarini rivojlantirishga tayyormiz mutaxassislar va mutaxassislar jamoasini xush kelibsiz deb qabul qilamiz.",
+
     "Feruza": "Feruza Madalieva",
     "FeruzaWork": "Ijro direktori / Bosh mutaxassisi",
     "FeruzaImg": "feruzamadalieva",
@@ -83,85 +84,7 @@
 
     "Shuhrat": "Shuhrat Azizov",
     "ShuhratWork": "Bosh muhandis",
-    "ShuhratImg": "shuhratazizov",
-
-    "members": [
-      {
-        "name": "Feruza Madalieva",
-        "position": "Ijrochi direktor / Bosh mutaxassis",
-        "img": "feruzamadalieva"
-      },
-      {
-        "name": "Nurbek Pulatov",
-        "position": "Vakolatli mutaxassis / CD mutaxassisi",
-        "img": "nurbekpulatov"
-      },
-      {
-        "name": "Shuhrat Azizov",
-        "position": "Bosh muhandis",
-        "img": "shuhratazizov"
-      },
-      {
-        "name": "Fatima Abduvohobova",
-        "position": "Ijtimoiy hisobdorlik mutaxassisi / Trener",
-        "img": "fatimaabduvohobova"
-      },
-      {
-        "name": "Sherzod Amirov",
-        "position": "Jamoatchilik bilan aloqalar mutaxassisi",
-        "img": "sherzodamirov"
-      },
-      {
-        "name": "Furkat Usmonov",
-        "position": "Axborot texnologiyalari bo‘yicha mutaxassis",
-        "img": "furkatusmonov"
-      },
-      {
-        "name": "Alisher Orziboev",
-        "position": "Moliyaviy boshqaruvchi / Buxgalter",
-        "img": "alisherorziboev"
-      },
-      {
-        "name": "Nargiza Khudoynazarova",
-        "position": "Iqlim o‘zgarishi ta'siri bo‘yicha mutaxassis",
-        "img": "nargizakhudoynazarova"
-      },
-      {
-        "name": "Shahnoza Nabieva",
-        "position": "Gigiyena va sanitariya bo‘yicha mutaxassis / Trener",
-        "img": "shahnozanabieva"
-      },
-      {
-        "name": "Saida Gozieva",
-        "position": "Ijtimoiy mas'uliyat mutaxassisi",
-        "img": "saidagozieva"
-      },
-      {
-        "name": "Dilshod Musaev",
-        "position": "Tadbirkorlikni qo‘llab-quvvatlash mutaxassisi",
-        "img": "dilshodmusaev"
-      },
-      {
-        "name": "Javohir Shamsutdinov",
-        "position": "Monitoring va baholash mutaxassisi",
-        "img": "javohirshamsutdinov"
-      },
-      {
-        "name": "Dilshod Toshtemirov",
-        "position": "Texnik monitoring muhandisi",
-        "img": "dilshodtoshtemirov"
-      },
-      {
-        "name": "Dildora Mirzaeva",
-        "position": "Ofis menejeri",
-        "img": "dildoramirzaeva"
-      },
-      {
-        "name": "Akhmedov Dilshod",
-        "position": "Ijtimoiy komponent bo‘yicha bosh mutaxassis",
-        "img": "akhmedovdilshod"
-      }
-    ]
+    "ShuhratImg": "shuhratazizov"
   },
   "callFooter": {
     "Address": "Manzil",

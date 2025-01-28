@@ -57,7 +57,7 @@ export default function Gallery() {
               }}
               key={index}
             >
-              <div className="overflow-hidden relative group min-h-[240px] h-full">
+              <div className="overflow-hidden relative group min-h-[240px] h-full rounded-md">
                 <Image
                   className="w-full object-cover h-full"
                   width={400}
