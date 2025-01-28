@@ -48,7 +48,7 @@ export function Desktop() {
 }
 
 export function Mobile({ open, theme, handleTheme }) {
-  const { localePrefix } = routing;
+  const { locale } = useParams();
   return (
     open && (
       <div className="absolute top-[95px] md:top-[112px] left-0 right-0 bg-primary-foreground p-5 border xl:hidden">
@@ -62,7 +62,7 @@ export function Mobile({ open, theme, handleTheme }) {
                     variant="ghost"
                     asChild
                   >
-                    <Link href={`/${pathaname}/${path}`}>{text}</Link>
+                    <Link href={`/${locale}/${path}`}>{text}</Link>
                   </Button>
                 </li>
               );
