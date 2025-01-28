@@ -4,7 +4,6 @@ import TeamCard from "./TeamCard";
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback, useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { ArrowLeft, ArrowRight } from "@mui/icons-material";
 import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
 import ContacktComponent from "./Contackt";
 import ScrollToTopButton from "./ScrollButton";

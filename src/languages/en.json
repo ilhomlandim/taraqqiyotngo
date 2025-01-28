@@ -24,14 +24,21 @@
     "box2": "Kilometers of water pipes laid"
   },
   "services": {
-    "pageService": "Services offered",
-    "pagesServiceTitle": "We offer various services aimed at improving the well-being of the population.",
+    "pageService": "Services",
 
     "box1": "Technical design",
-    "box2": "Surveys and Research",
-    "box3": "Use of high-quality components and materials",
-    "box4": "Involving youth and women"
+    "box1Desc": "We handle all the technical aspects ourselves. Problem-solving is our heritage.",
+
+    "box2": "Surveys and research",
+    "box2Desc": "We frequently conduct surveys among the population.",
+
+    "box3": "Use of quality parts and materials",
+    "box3Desc": "We always use the latest technologies and materials. Quality is our top priority.",
+
+    "box4": "Engaging youth and women",
+    "box4Desc": "We pay special attention to women and girls."
   },
+
   "AboutUs": {
     "AboutTitle": "Republican center for the development of living conditions of the population",
     "AboutDesc": "The priority tasks of the Republican Center for the Development of Living Conditions of the Population of the Republic of Uzbekistan “Taraqqiyot” are as follows:",

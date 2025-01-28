@@ -26,13 +26,19 @@
   },
 
   "services": {
-    "pageService": "Taklif etilayotgan xizmatlar",
-    "pagesServiceTitle": "Biz aholi farovonligi oshirishga qaratilgan turli xizmatlarni taklif etamiz.",
+    "pageService": "Xizmatlar",
 
     "box1": "Texnik loyihalash",
+    "box1Desc": "Texnik tarafdan barchasini o'zimiz qilamiz. Muammo yechish bizga ota me'ros.",
+
     "box2": "So'rovlar va tadqiqotlar",
+    "box2Desc": "Aholi o'rtasida tez-tez so'rov o'tkazib turamiz.",
+
     "box3": "Sifatli qismlar va materiallardan foydalanish",
-    "box4": "Yoshlar va ayollarni jalb qilish"
+    "box3Desc": "Albatta eng so'ngi texnalogiya va materillardan foydalanamiz. Sifat birinichi o'rinda turadi biz uchun.",
+
+    "box4": "Yoshlar va ayollarni jalb qilish",
+    "box4Desc": "Bizda ayol va qizlarga alohida e'tibor qaratiladi."
   },
   "AboutUs": {
     "AboutTitle": "Aholining turmush sharoitlarini rivojlantirish respublika markazi",
