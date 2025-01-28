@@ -33,7 +33,7 @@ function LoadingStateImage({ img, title }) {
 
 function TeamCard({ info: { title, description, img } }) {
   return (
-    <Card className="overflow-hidden group cursor-pointer hover:bg-primary-foreground transition-all">
+    <Card className="overflow-hidden group hover:bg-primary-foreground transition-all">
       <CardHeader>
         <CardTitle>{title}</CardTitle>
       </CardHeader>
