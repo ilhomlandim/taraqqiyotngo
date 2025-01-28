@@ -20,8 +20,10 @@ import { Eye } from "lucide-react";
 import Lightbox from "yet-another-react-lightbox";
 import { useState } from "react";
 import NextJsImage from "./NextJsImage";
+import { useTranslations } from "next-intl";
 
 export default function Gallery() {
+  const t = useTranslations("OurGallery");
   const [open, setOpen] = useState({ state: false, index: 0 });
   const images = [
     Zavodda,
@@ -44,7 +46,7 @@ export default function Gallery() {
 
   return (
     <section className="py-14">
-      <h2 className="text-4xl font-bold text-center mb-10">Our Gallery</h2>
+      <h2 className="text-4xl font-bold text-center mb-10">{t("title")}</h2>
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-1 rounded">
         {images.map((image, index) => {
           return (

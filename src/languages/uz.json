@@ -17,7 +17,10 @@
     "third": "Potentsialni oshirish va institutsional rivojlanish",
     "fourth": "Aholi turmush sharoitlarini yaxshilash uchun innovatsion yechimlar"
   },
+
   "Partners": { "title": "Hamkorlar" },
+
+  "OurGallery": { "title": "Bizning suratlar" },
 
   "Statistics": {
     "title": "Statistika",
@@ -40,6 +43,7 @@
     "box4": "Yoshlar va ayollarni jalb qilish",
     "box4Desc": "Bizda ayol va qizlarga alohida e'tibor qaratiladi."
   },
+
   "AboutUs": {
     "AboutTitle": "Aholining turmush sharoitlarini rivojlantirish respublika markazi",
     "AboutDesc": "O‘zbekiston Respublikasi aholisi turmush sharoitlarini rivojlantirish respublika markazi “Taraqqiyot”ning ustuvor vazifalari quyidagilardan iborat:",
@@ -69,10 +73,8 @@
     "third": "Ushbu loyiha postsovet davridan beri ijtimoiy hayotning eskirgan yoki ishlamay qolgan shakllarini o'zgartirish yoki hal qilishga qaratilgan edi. Shuningdek, odamlar hech qanday kuch sarflamasdan hamma narsani davlatdan tekin olishga odatlangan bo'lib qolgan qaramlik stereotipini yo'q qilish."
   },
   "Team": {
-    "TeamTitle": "Jamoa a’zolari",
-    "TeamDesc": "“Taraqqiyot” NNT jamoasi turli ixtisoslikdagi mutaxassislar va amaliyotchilardan tashkil topgan va mahalliy hamjamiyat rivojiga hissa qo’shish uchun birlashgan. Tashkilotimiz har doim jamoamizga qo’shilish uchun yangi a’zolar uchun ochiq.",
-    "TeamPageDesc": "Respublika Markazi “Taraqqiyot” jamoasi, O‘zbekiston hududidagi mahalliy infratuzilma rivojlanishiga yo‘naltirilgan innovatsion usullar va texnologiyalarni tanishtirish sohasida tajribali mutaxassislar va mutaxassislar jamoasini biriga jalb qiladi, ularning ijtimoiy-iqtisodiy xayotini yaxshilashga qaratilgan. ",
-    "TeamPageBottomDesc": "Biz doim O‘zbekiston Respublikasining eng muhim sohalarini rivojlantirishga tayyormiz mutaxassislar va mutaxassislar jamoasini xush kelibsiz deb qabul qilamiz.",
+    "TeamTitle": "Bizning Jamoa",
+    "TeamDesc": "",
 
     "Feruza": "Feruza Madalieva",
     "FeruzaWork": "Ijro direktori / Bosh mutaxassisi",
@@ -84,7 +86,43 @@
 
     "Shuhrat": "Shuhrat Azizov",
     "ShuhratWork": "Bosh muhandis",
-    "ShuhratImg": "shuhratazizov"
+    "ShuhratImg": "shuhratazizov",
+
+    "Fatima": "Fatima Abduvohobova",
+    "FatimaWork": "Ijtimoiy mas'uliyat bo'yicha mutaxassis / Trener",
+
+    "Sherzod": "Sherzod Amirov",
+    "SherzodWork": "Jamoatchilik bilan aloqalar bo'yicha mutaxassis",
+
+    "Furqat": "Furkat Usmonov",
+    "FurqatWork": "Axborot texnologiyalari bo'yicha mutaxassis",
+
+    "Alisher": "Alisher Orziboev",
+    "AlisherWork": "Bosh moliyachi / buxgalter",
+
+    "Nargiza": "Nargiza Khudoynazarova",
+    "NargizaWork": "Iqlim o'zgarishi ta'siri bo'yicha mutaxassis",
+
+    "Shahnoza": "Shahnoza Nabieva",
+    "ShahnozaWork": "Gigiyena va sanitariya mutaxassisi / Trener",
+
+    "Saida": "Saida Gozieva",
+    "SaidaWork": "Ijtimoiy mas'uliyat bo'yicha mutaxassis",
+
+    "Dilshod": "Dilshod Musaev",
+    "DilshodWork": "Tadbirkorlikni qo'llab-quvvatlash bo'yicha mutaxassis",
+
+    "Javohir": "Javohir Shamsutdinov",
+    "JavohirWork": "Monitoring va baholash bo'yicha mutaxassis",
+
+    "DilshodT": "Dilshod Toshtemirov",
+    "DilshodTWork": "Texnik monitoring bo'yicha muhandis",
+
+    "Dildora": "Dildora Mirzaeva",
+    "DildoraWork": "Ofis menejeri",
+
+    "DilshodA": "Dilshod Akhmedov",
+    "DilshodAWork": "Ijtimoiy komponent bo'yicha bosh mutaxassis"
   },
   "callFooter": {
     "Address": "Manzil",
