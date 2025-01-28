@@ -5,8 +5,7 @@ import Fade from "embla-carousel-fade";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 
-const EmblaCarousel = (props) => {
-  const { slides } = props;
+const EmblaCarousel = ({ slides }) => {
   const [emblaRef] = useEmblaCarousel({ loop: true, duration: 40 }, [
     Fade(),
     Autoplay({ delay: 3000 }),

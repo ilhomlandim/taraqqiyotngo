@@ -65,6 +65,7 @@
     "TeamDesc": "The “Taraqqiyot” NGO team consists of specialists and practitioners of various specialties and has united to contribute to the development of the local community. Our organization is always open to new members who can join our team.",
     "TeamPageDesc": "The team of the Republican Center 'Tarakkiyot' brings together experienced experts and specialists in the field of introducing innovative methods and technologies aimed at improving the socio-economic well-being of the population of Uzbekistan through the development of local infrastructure.  ",
     "TeamPageBottomDisc": "We are always happy to welcome new specialists and experts who are ready to contribute to the development of key sectors of the economy of the Republic of Uzbekistan.",
+
     "Feruza": "Feruza Madalieva",
     "FeruzaWork": "Executive Director / Chief Specialist",
     "FeruzaImg": "feruzamadalieva",
@@ -75,85 +76,7 @@
 
     "Shuhrat": "Shuhrat Azizov",
     "ShuhratWork": "Chief Engineer",
-    "ShuhratImg": "shuhratazizov",
-
-    "members": [
-      {
-        "name": "Feruza Madalieva",
-        "position": "Executive Director / Chief Specialist",
-        "img": "feruzamadalieva"
-      },
-      {
-        "name": "Nurbek Pulatov",
-        "position": "Empowerment Specialist / CD Specialist",
-        "img": "nurbekpulatov"
-      },
-      {
-        "name": "Shuhrat Azizov",
-        "position": "Chief Engineer",
-        "img": "shuhratazizov"
-      },
-      {
-        "name": "Fatima Abduvohobova",
-        "position": "Social Accountability Specialist / Trainer",
-        "img": "fatimaabduvohobova"
-      },
-      {
-        "name": "Sherzod Amirov",
-        "position": "Public Relations Specialist",
-        "img": "sherzodamirov"
-      },
-      {
-        "name": "Furkat Usmonov",
-        "position": "Information Technology Expert",
-        "img": "furkatusmonov"
-      },
-      {
-        "name": "Alisher Orziboev",
-        "position": "Chief Financial Officer / Accountant",
-        "img": "alisherorziboev"
-      },
-      {
-        "name": "Nargiza Khudoynazarova",
-        "position": "Climate Change Impact Expert",
-        "img": "nargizakhudoynazarova"
-      },
-      {
-        "name": "Shahnoza Nabieva",
-        "position": "Hygiene and Sanitation Specialist / Trainer",
-        "img": "shahnozanabieva"
-      },
-      {
-        "name": "Saida Gozieva",
-        "position": "Social Responsibility Specialist",
-        "img": "saidagozieva"
-      },
-      {
-        "name": "Dilshod Musaev",
-        "position": "Entrepreneurship Support Specialist",
-        "img": "dilshodmusaev"
-      },
-      {
-        "name": "Javohir Shamsutdinov",
-        "position": "Monitoring and Evaluation Specialist",
-        "img": "javohirshamsutdinov"
-      },
-      {
-        "name": "Dilshod Toshtemirov",
-        "position": "Technical Monitoring Engineer",
-        "img": "dilshodtoshtemirov"
-      },
-      {
-        "name": "Dildora Mirzaeva",
-        "position": "Office Manager",
-        "img": "dildoramirzaeva"
-      },
-      {
-        "name": "Akhmedov Dilshod",
-        "position": "Chief Social Component Specialist",
-        "img": "akhmedovdilshod"
-      }
-    ]
+    "ShuhratImg": "shuhratazizov"
   },
   "callFooter": {
     "Address": "Address",
