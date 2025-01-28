@@ -1,6 +1,6 @@
 "use client";
 import useEmblaCarousel from "embla-carousel-react";
-import TeamCard from "./TeamCard";
+import TeamCard from "../../../TeamCard";
 import { useEffect } from "react";
 
 export default function EmblaCarousel({ slides }) {

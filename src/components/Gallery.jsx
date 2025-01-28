@@ -21,6 +21,32 @@ import Lightbox from "yet-another-react-lightbox";
 import { useState } from "react";
 import NextJsImage from "./NextJsImage";
 import { useTranslations } from "next-intl";
+import { Skeleton } from "./ui/skeleton";
+
+function LoadingStateImage({ image, index }) {
+  const [loading, setLoading] = useState(true);
+  return (
+    <div className="overflow-hidden relative group h-[240px] rounded-md">
+      <Image
+        className="w-full object-cover h-full"
+        style={{
+          display: loading ? "none" : "block",
+        }}
+        width={400}
+        height={300}
+        onLoadingComplete={() => setLoading(false)}
+        priority
+        alt={`Image ${index + 1}`}
+        src={image.src}
+      />
+
+      <div className="bg-primary/50 absolute inset-0 backdrop-blur-sm flex items-center justify-center  opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+        <Eye className="text-white" />
+      </div>
+      {loading && <Skeleton className="w-full h-[240px] absolute inset-0" />}
+    </div>
+  );
+}
 
 export default function Gallery() {
   const t = useTranslations("OurGallery");
@@ -59,19 +85,7 @@ export default function Gallery() {
               }}
               key={index}
             >
-              <div className="overflow-hidden relative group min-h-[240px] h-full rounded-md">
-                <Image
-                  className="w-full object-cover h-full"
-                  width={400}
-                  height={300}
-                  priority
-                  alt={`Image ${index + 1}`}
-                  src={image.src}
-                />
-                <div className="bg-primary/50 absolute inset-0 backdrop-blur-sm flex items-center justify-center  opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer">
-                  <Eye className="text-white" />
-                </div>
-              </div>
+              <LoadingStateImage image={image} index={index} />
             </li>
           );
         })}

@@ -8,6 +8,7 @@ import {
 } from "./ui/card";
 import Image from "next/image";
 import Contact from "./Contact";
+import TeamCard from "./TeamCard";
 
 export default function Team() {
   const t = useTranslations("Team");
@@ -95,26 +96,10 @@ export default function Team() {
       <div className="base-container">
         <h1 className="text-6xl font-bold mb-10">{t("TeamTitle")}</h1>
         <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
-          {members.map(({ description, img, title }, index) => {
+          {members.map((info, index) => {
             return (
               <li key={index}>
-                <Card className="hover:bg-primary-foreground transition">
-                  <CardHeader>
-                    <CardTitle>{title}</CardTitle>
-                    <CardDescription className="!line-clamp-1">
-                      {description}
-                    </CardDescription>
-                  </CardHeader>
-                  <CardFooter className="p-0">
-                    <Image
-                      className="w-full object-cover h-[500px]"
-                      width={300}
-                      height={300}
-                      src={`/team/${img}.jpg`}
-                      alt={img}
-                    />
-                  </CardFooter>
-                </Card>
+                <TeamCard info={info} />
               </li>
             );
           })}
