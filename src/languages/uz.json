@@ -71,9 +71,7 @@
   },
   "Team": {
     "TeamTitle": "Bizning Jamoa",
-    "TeamDesc": "“Taraqqiyot” NNT jamoasi turli ixtisoslikdagi mutaxassislar va amaliyotchilardan tashkil topgan va mahalliy hamjamiyat rivojiga hissa qo’shish uchun birlashgan. Tashkilotimiz har doim jamoamizga qo’shilish uchun yangi a’zolar uchun ochiq.",
-    "TeamPageDesc": "Respublika Markazi “Taraqqiyot” jamoasi, O‘zbekiston hududidagi mahalliy infratuzilma rivojlanishiga yo‘naltirilgan innovatsion usullar va texnologiyalarni tanishtirish sohasida tajribali mutaxassislar va mutaxassislar jamoasini biriga jalb qiladi, ularning ijtimoiy-iqtisodiy xayotini yaxshilashga qaratilgan. ",
-    "TeamPageBottomDesc": "Biz doim O‘zbekiston Respublikasining eng muhim sohalarini rivojlantirishga tayyormiz mutaxassislar va mutaxassislar jamoasini xush kelibsiz deb qabul qilamiz.",
+    "TeamDesc": "",
 
     "Feruza": "Feruza Madalieva",
     "FeruzaWork": "Ijro direktori / Bosh mutaxassisi",
@@ -87,8 +85,8 @@
     "ShuhratWork": "Bosh muhandis",
     "ShuhratImg": "shuhratazizov",
 
-    "Fotima": "Fatima Abduvohobova",
-    "FotimaWork": "Ijtimoiy mas'uliyat bo'yicha mutaxassis / Trener",
+    "Fatima": "Fatima Abduvohobova",
+    "FatimaWork": "Ijtimoiy mas'uliyat bo'yicha mutaxassis / Trener",
 
     "Sherzod": "Sherzod Amirov",
     "SherzodWork": "Jamoatchilik bilan aloqalar bo'yicha mutaxassis",
@@ -97,7 +95,7 @@
     "FurqatWork": "Axborot texnologiyalari bo'yicha mutaxassis",
 
     "Alisher": "Alisher Orziboev",
-    "AlisherWokr": "Bosh moliyachi / buxgalter",
+    "AlisherWork": "Bosh moliyachi / buxgalter",
 
     "Nargiza": "Nargiza Khudoynazarova",
     "NargizaWork": "Iqlim o'zgarishi ta'siri bo'yicha mutaxassis",

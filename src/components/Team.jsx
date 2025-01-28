@@ -3,21 +3,6 @@ import Carousel from "./carousel/team";
 import { useLocale } from "next-intl";
 import { buttonVariants } from "./ui/button";
 import { useTranslations } from "next-intl";
-import feruza from "/public/team/feruzamadalieva.jpg";
-import nurbek from "/public/team/nurbekpulatov.jpg";
-import shuhrat from "/public/team/shuhratazizov.jpg";
-import fatima from "/public/team/fatimaabduvohobova.jpg";
-import sherzod from "/public/team/sherzodamirov.jpg";
-import furkat from "/public/team/furkatusmonov.jpg";
-import alisher from "/public/team/alisherorziboev.jpg";
-import nargiza from "/public/team/nargizakhudoynazarova.jpg";
-import shahnoza from "/public/team/shahnozanabieva.jpg";
-import saida from "/public/team/saidagozieva.jpg";
-import dilshodm from "/public/team/dilshodmusaev.jpg";
-import javohir from "/public/team/javohirshamsutdinov.jpg";
-import dilshodt from "/public/team/dilshodtoshtemirov.jpg";
-import dildora from "/public/team/dildoramirzaeva.jpg";
-import dilshoda from "/public/team/akhmedovdilshod.jpg";
 
 export default function Team() {
   const t = useTranslations("Team");
