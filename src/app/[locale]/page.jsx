@@ -8,9 +8,10 @@ import ScrollToTopButton from "@/components/ScrollButton";
 import Statistics from "@/components/Statistics";
 import TeamCarousel from "@/components/TeamCarousel";
 
-export default function Home() {
+export default function Home(params) {
   return (
     <>
+      {JSON.stringify(params)}
       <Header />
       <main className="grow">
         <IndexHero />
