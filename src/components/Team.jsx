@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from "./ui/card";
 import Image from "next/image";
+import Contact from "./Contact";
 
 export default function Team() {
   const t = useTranslations("Team");
@@ -118,6 +119,7 @@ export default function Team() {
             );
           })}
         </ul>
+        <Contact />
       </div>
     </section>
   );
