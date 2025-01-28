@@ -11,6 +11,11 @@ export default {
       fontFamily: {
         "source-sans": ["'Source Sans 3'", "Arial", "sans-serif"],
       },
+      flex: {
+        33: "0 0 33.33%",
+        50: "0 0 50%",
+        100: "0 0 100%",
+      },
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",

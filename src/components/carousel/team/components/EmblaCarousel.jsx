@@ -28,10 +28,7 @@ export default function EmblaCarousel({ slides }) {
         {slides.map((info, index) => {
           return (
             <div
-              className="embla__slide"
-              style={{
-                "--slide-size": "33.33%",
-              }}
+              className="embla__slide flex-100 md:flex-50 xl:flex-33"
               key={index}
             >
               <TeamCard info={info} />
