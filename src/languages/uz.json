@@ -4,13 +4,11 @@
     "News": "Yangiliklar",
     "Projects": "Loyihalar",
     "Services": "Xizmatlar",
-    "About us": "Biz haqimizda",
-    "History": "Tarix",
     "Team": "Jamoa",
     "Work environment": "Ish muhiti",
-    "Contact us": "Bog'lanish",
     "Language": "Til"
   },
+
   "indexHero": {
     "first": "Infrastrukturani yaxshilash uchun ilg'or texnologiyalardan foydalanish",
     "second": "Suv resurslarini boshqarishda ayollar o'rnini oshirish uchun ijtimoiy-iqtisodiy qo'llab-quvvatlash",
@@ -44,37 +42,8 @@
     "box4Desc": "Bizda ayol va qizlarga alohida e'tibor qaratiladi."
   },
 
-  "AboutUs": {
-    "AboutTitle": "Aholining turmush sharoitlarini rivojlantirish respublika markazi",
-    "AboutDesc": "O‘zbekiston Respublikasi aholisi turmush sharoitlarini rivojlantirish respublika markazi “Taraqqiyot”ning ustuvor vazifalari quyidagilardan iborat:",
-
-    "first": "qishloq infratuzilmasini yaxshilash",
-    "second": "dasturiy ta'minotni qo'llash bilan innovatsion dizayn",
-    "third": "ichimlik suvi ta'minoti tizimini qurish",
-    "fourth": "qurilish ishlarining texnik monitoringi",
-    "fifth": "yuqori sifatli materiallarni sotib olish va ulardan foydalanish",
-    "sixth": "xodimlarni suv ta'minoti tizimidan foydalanishga o'rgatish",
-    "seventh": "xodimlarni suv ta'minoti tizimlarini loyihalash bo'yicha o'qitish",
-    "eighth": "ayollarni ijtimoiy-iqtisodiy qo'llab-quvvatlash",
-    "nineth": "yangi ish o'rinlarini yaratish",
-    "tenth": "moliyaviy boshqaruv bo'yicha treninglar o'tkazish",
-    "eleventh": "menejment bo'yicha treninglar o'tkazish (xodimlarni boshqarish)",
-    "twelfth": "ichimlik suvi tarif rejalarini ishlab chiqish",
-    "thirteenth": "loyiha hujjatlarini tayyorlash va keyingi texnik yordam va xizmat ko'rsatish",
-
-    "paragref": "Ushbu maqsadlarga suv ta'minoti sohasida boy ko'nikma va tajribaga ega bo'lgan mutaxassislarning muvofiqlashtirilgan say-harakatlari orqali erishiladi.",
-    "secondParagref": "Markazning tashkiliy tuzilmasi aholining bilimlarini oshirish va ijtimoiy va infratuzilma bo'shliqlarini hal qilish uchun qaror qabul qilish usullaridan foydalanish orqali turmush darajasini oshirish kontseptsiyasini qo'llab-quvvatlaydi"
-  },
-
-  "history": {
-    "mainTitle": "“Taraqqiyot” Respublika aholining turmush tarzini rivojlantirishga ko’maklashish markazining tashkil etilishi tarixi.",
-    "firstDesc": "O‘zbekiston Respublikasi Farg‘ona vodiysi qishloq hududlarini suv ta’minoti va sanitariya loyihasi platformasi negizida “Taraqqiyot” Respublika aholining turmush tarzini rivojlantirishga ko’maklashish markazi tashkil etildi. Loyihani amalga oshirish muddati 2004 yildan 2019 yilgacha. Loyiha Shveytsariya Konfederatsiyasining Shveytsariya taraqqiyot va hamkorlik agentligi tomonidan moliyalashtirilgan va Kanada suv xo‘jaligi bo‘yicha xalqaro kotibiyat tomonidan amalga oshirildi. Shu davrda 32 ta tizim qurildi, qishloq joylarda 160 ming mingdan ortiq aholi toza ichimlik suvi bilan ta’minlandi, sanitariya-gigiyena sharoitlari yaxshilandi.",
-    "secondDesc": "“Taraqqiyot” Respublika aholining turmush tarzini rivojlantirishga ko’maklashish markazi avvalgi infratuzilma loyihasi faoliyatini davom ettirish va bir vaqtning o'zida loyiha foydalanuvchilari uchun, ayniqsa, jamiyatning ijtimoiy hayotida muammolar mavjud bo'lgan qishloq joylarida boshqa ijtimoiy ahamiyatga ega loyihalarni amalga oshirish maqsadida tashkil etilgan.",
-    "third": "Ushbu loyiha postsovet davridan beri ijtimoiy hayotning eskirgan yoki ishlamay qolgan shakllarini o'zgartirish yoki hal qilishga qaratilgan edi. Shuningdek, odamlar hech qanday kuch sarflamasdan hamma narsani davlatdan tekin olishga odatlangan bo'lib qolgan qaramlik stereotipini yo'q qilish."
-  },
   "Team": {
     "TeamTitle": "Bizning Jamoa",
-    "TeamDesc": "",
 
     "Feruza": "Feruza Madalieva",
     "FeruzaWork": "Ijro direktori / Bosh mutaxassisi",
@@ -124,12 +93,12 @@
     "DilshodA": "Dilshod Akhmedov",
     "DilshodAWork": "Ijtimoiy komponent bo'yicha bosh mutaxassis"
   },
+
   "callFooter": {
     "Address": "Manzil",
     "st": "Farg’ona sh. Vatan ravnaqi 18-uy",
 
-    "lookingJob": "Ish izlayapsizmi? resumeyingizni jonating",
-
-    "TelephoneNumber": "Telefon raqam:"
+    "Contact": "Bog'lanish",
+    "TelephoneNumber": "Telefon raqam"
   }
 }
