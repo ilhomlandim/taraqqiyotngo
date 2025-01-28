@@ -17,7 +17,10 @@
     "third": "Potentsialni oshirish va institutsional rivojlanish",
     "fourth": "Aholi turmush sharoitlarini yaxshilash uchun innovatsion yechimlar"
   },
+
   "Partners": { "title": "Hamkorlar" },
+
+  "OurGallery": { "title": "Bizning suratlar" },
 
   "Statistics": {
     "title": "Statistika",
