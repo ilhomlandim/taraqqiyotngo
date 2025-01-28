@@ -3,8 +3,8 @@ import "./carousel.css";
 import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
-import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { redirect } from "next/navigation";
 
 export const metadata = {
   title: "Taraqqiyot NGO",
@@ -13,7 +13,7 @@ export const metadata = {
 
 export default async function RootLayout({ children, params: { locale } }) {
   if (!routing.locales.includes(locale)) {
-    notFound();
+    redirect(`/${routing.defaultLocale}`);
   }
 
   const messages = await getMessages(locale);
