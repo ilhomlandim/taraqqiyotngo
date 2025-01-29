@@ -45,10 +45,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header
-      id="top"
-      className="py-5 sticky top-0 left-0 right-0 w-full shadow-sm z-50 bg-primary-foreground"
-    >
+    <header className="py-5 fixed top-0 left-0 right-0 w-full shadow-sm z-50 bg-primary-foreground">
       <div className="base-container flex justify-between items-center">
         <Logo />
         <Desktop />
