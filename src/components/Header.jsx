@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 
 import LanguageChanger from "./LanguageChanger";
 import Logo from "./Logo";
+import PartLinker from "./PartLinker";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -50,6 +51,7 @@ export default function Header() {
         <Logo />
         <Desktop />
         <Mobile open={open} theme={theme} handleTheme={handleTheme} />
+        <PartLinker />
         <Button
           onClick={() => {
             setOpen((prev) => !prev);

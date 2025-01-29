@@ -1,13 +1,4 @@
 import { useTranslations } from "next-intl";
-import {
-  Card,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "./ui/card";
-import Image from "next/image";
-import Contact from "./Contact";
 import TeamCard from "./TeamCard";
 
 export default function Team() {
@@ -94,7 +85,9 @@ export default function Team() {
   return (
     <section className="py-14">
       <div className="base-container">
-        <h1 className="text-6xl font-bold mb-10">{t("TeamTitle")}</h1>
+        <h1 className="text-4xl font-bold mb-10 text-center md:text-5xl xl:text-6xl">
+          {t("TeamTitle")}
+        </h1>
         <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
           {members.map((info, index) => {
             return (
@@ -104,7 +97,6 @@ export default function Team() {
             );
           })}
         </ul>
-        <Contact />
       </div>
     </section>
   );

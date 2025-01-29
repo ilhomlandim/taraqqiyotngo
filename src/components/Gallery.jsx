@@ -34,7 +34,7 @@ function LoadingStateImage({ image, index }) {
         }}
         width={400}
         height={300}
-        onLoadingComplete={() => setLoading(false)}
+        onLoad={() => setLoading(false)}
         priority
         alt={`Image ${index + 1}`}
         src={image.src}
@@ -72,7 +72,9 @@ export default function Gallery() {
 
   return (
     <section className="py-14">
-      <h2 className="text-4xl font-bold text-center mb-10">{t("title")}</h2>
+      <h2 className="text-3xl font-bold mb-10 text-center md:text-4xl">
+        {t("title")}
+      </h2>
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-1 rounded">
         {images.map((image, index) => {
           return (

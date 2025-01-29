@@ -19,7 +19,7 @@ function LoadingStateImage({ img, title }) {
         className={`!w-full h-full min-h-[500px] max-h-[500px] object-cover grayscale group-hover:grayscale-0 transition-all ${
           loading ? "hidden" : "block"
         }`}
-        onLoadingComplete={() => setLoading(false)}
+        onLoad={() => setLoading(false)}
         priority
         src={`/team/${img}.jpg`}
         width={600}

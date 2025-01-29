@@ -89,7 +89,9 @@ export default function IndexTeam() {
   return (
     <section className="py-14">
       <div className="base-container">
-        <h2 className="text-4xl font-bold mb-10">{t("TeamTitle")}</h2>
+        <h2 className="text-3xl font-bold mb-10 text-center md:text-4xl">
+          {t("TeamTitle")}
+        </h2>
         <div className="mb-5">
           <Carousel slides={members} />
         </div>

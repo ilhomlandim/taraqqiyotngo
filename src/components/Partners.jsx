@@ -22,7 +22,9 @@ export default function Partners() {
   return (
     <section className="py-14 md:py-20">
       <div className="base-container">
-        <h2 className="text-4xl font-bold mb-10">{t("title")}</h2>
+        <h2 className="text-3xl font-bold mb-10 text-center md:text-4xl">
+          {t("title")}
+        </h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-7 gap-10">
           {partners.map((logo, index) => {
             return (
