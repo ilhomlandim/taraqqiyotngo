@@ -7,6 +7,7 @@ import SieLogo from "/public/partners/sie.png";
 import USAIDLogo from "/public/partners/usaid.png";
 import UyJoyLogo from "/public/partners/uyjoy.png";
 import { useTranslations } from "next-intl";
+import Framer from "./Framer";
 
 export default function Partners() {
   const t = useTranslations("Partners");
@@ -25,18 +26,25 @@ export default function Partners() {
         <h2 className="text-3xl font-bold mb-10 text-center md:text-4xl">
           {t("title")}
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-7 gap-10">
+        <div className="grid grid-cols-2 items-center sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-7 gap-10">
           {partners.map((logo, index) => {
             return (
-              <Image
+              <Framer
                 key={index}
-                className="w-full place-self-center grayscale hover:grayscale-0 transition-all"
-                width={200}
-                priority
-                height={200}
-                alt={`Partner ${index + 1}`}
-                src={logo.src}
-              />
+                animate={{ y: 0, opacity: 1, scale: 1 }}
+                initial={{ y: 100, opacity: 0, scale: 0.5 }}
+                duration="1"
+                delay={index / 10}
+              >
+                <Image
+                  className="w-full place-self-center grayscale hover:grayscale-0 transition-all"
+                  width={200}
+                  priority
+                  height={200}
+                  alt={`Partner ${index + 1}`}
+                  src={logo.src}
+                />
+              </Framer>
             );
           })}
         </div>

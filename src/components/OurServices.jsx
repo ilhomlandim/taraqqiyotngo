@@ -1,6 +1,7 @@
 import { Bolt, Puzzle, Ribbon, ScanSearch } from "lucide-react";
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { useTranslations } from "next-intl";
+import Framer from "./Framer";
 
 export default function OurServices() {
   const t = useTranslations("Services");
@@ -36,13 +37,15 @@ export default function OurServices() {
           {services.map(({ title, description, icon }, index) => {
             return (
               <li key={index}>
-                <Card className="min-h-[250px] hover:bg-primary-foreground">
-                  <CardHeader>
-                    {icon}
-                    <CardTitle>{title}</CardTitle>
-                    <CardDescription>{description}</CardDescription>
-                  </CardHeader>
-                </Card>
+                <Framer duration="1" delay={index / 10}>
+                  <Card className="min-h-[250px] hover:bg-primary-foreground">
+                    <CardHeader>
+                      {icon}
+                      <CardTitle>{title}</CardTitle>
+                      <CardDescription>{description}</CardDescription>
+                    </CardHeader>
+                  </Card>
+                </Framer>
               </li>
             );
           })}

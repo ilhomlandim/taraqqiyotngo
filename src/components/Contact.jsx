@@ -2,6 +2,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import Framer from "./Framer";
 
 export default function Contact() {
   const t = useTranslations("callFooter");
@@ -35,15 +36,17 @@ export default function Contact() {
           {contact.map(({ title, description, icon, href }, index) => {
             return (
               <li key={index}>
-                <Link href={href} target="_blank" rel="noopener noreferrer">
-                  <Card className="min-h-[200px] cursor-pointer hover:bg-primary-foreground">
-                    <CardHeader>
-                      {icon}
-                      <CardTitle>{title}</CardTitle>
-                      <CardDescription>{description}</CardDescription>
-                    </CardHeader>
-                  </Card>
-                </Link>
+                <Framer duration="1" delay={index / 10}>
+                  <Link href={href} target="_blank" rel="noopener noreferrer">
+                    <Card className="min-h-[200px] cursor-pointer hover:bg-primary-foreground">
+                      <CardHeader>
+                        {icon}
+                        <CardTitle>{title}</CardTitle>
+                        <CardDescription>{description}</CardDescription>
+                      </CardHeader>
+                    </Card>
+                  </Link>
+                </Framer>
               </li>
             );
           })}

@@ -92,7 +92,7 @@ export default function Team() {
           {members.map((info, index) => {
             return (
               <li key={index}>
-                <TeamCard info={info} />
+                <TeamCard index={index} info={info} />
               </li>
             );
           })}

@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/card";
 import { useState } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
+import Framer from "./Framer";
 
 function LoadingStateImage({ img, title }) {
   const [loading, setLoading] = useState(true);
@@ -31,21 +32,28 @@ function LoadingStateImage({ img, title }) {
   );
 }
 
-function TeamCard({ info: { title, description, img } }) {
+function TeamCard({ info: { title, description, img }, index }) {
   return (
-    <Card className="overflow-hidden group hover:bg-primary-foreground transition-all">
-      <CardHeader>
-        <CardTitle>{title}</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <CardDescription className="!line-clamp-1">
-          {description}
-        </CardDescription>
-      </CardContent>
-      <CardFooter className="p-0">
-        <LoadingStateImage img={img} title={title} />
-      </CardFooter>
-    </Card>
+    <Framer
+      delay={index / 10}
+      initial={{ scale: 0.5, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      duration="1"
+    >
+      <Card className="overflow-hidden group hover:bg-primary-foreground transition-all">
+        <CardHeader>
+          <CardTitle>{title}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <CardDescription className="!line-clamp-1">
+            {description}
+          </CardDescription>
+        </CardContent>
+        <CardFooter className="p-0">
+          <LoadingStateImage img={img} title={title} />
+        </CardFooter>
+      </Card>
+    </Framer>
   );
 }
 

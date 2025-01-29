@@ -22,6 +22,7 @@ import { useState } from "react";
 import NextJsImage from "./NextJsImage";
 import { useTranslations } from "next-intl";
 import { Skeleton } from "./ui/skeleton";
+import Framer from "./Framer";
 
 function LoadingStateImage({ image, index }) {
   const [loading, setLoading] = useState(true);
@@ -87,7 +88,9 @@ export default function Gallery() {
               }}
               key={index}
             >
-              <LoadingStateImage image={image} index={index} />
+              <Framer delay={index / 10} duration="1.2">
+                <LoadingStateImage image={image} index={index} />
+              </Framer>
             </li>
           );
         })}
