@@ -3,22 +3,22 @@ import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Header from "@/components/Header";
 import IndexHero from "@/components/IndexHero";
+import IndexTeam from "@/components/IndexTeam";
 import OurServices from "@/components/OurServices";
 import Partners from "@/components/Partners";
 import Statistics from "@/components/Statistics";
-import IndexTeam from "@/components/IndexTeam";
 
-export default function Home(params) {
+export default function Home() {
   return (
     <>
       <Header />
-      <main className="grow">
+      <main className="grow py-[94px] md:py-[112px]">
         <IndexHero />
         <Partners />
-        <Statistics />
-        <OurServices />
-        <Gallery />
         <IndexTeam />
+        <Gallery />
+        <OurServices />
+        <Statistics />
         <Contact />
       </main>
       <Footer />

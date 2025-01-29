@@ -26,7 +26,7 @@ export default function Contact() {
     },
   ];
   return (
-    <section className="py-14">
+    <section className="py-14 md:py-20">
       <div className="base-container">
         <h2 className="text-4xl font-bold mb-10">{t("Contact")}</h2>
         <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">

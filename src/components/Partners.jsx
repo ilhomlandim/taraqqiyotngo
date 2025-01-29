@@ -20,7 +20,7 @@ export default function Partners() {
     UyJoyLogo,
   ];
   return (
-    <section className="py-14">
+    <section className="py-14 md:py-20">
       <div className="base-container">
         <h2 className="text-4xl font-bold mb-10">{t("title")}</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-7 gap-10">
