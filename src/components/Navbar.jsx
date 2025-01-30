@@ -12,10 +12,10 @@ const links = [
     text: "Main",
     path: "/",
   },
-  // {
-  //   text: "News",
-  //   path: "/news",
-  // },
+  {
+    text: "Projects",
+    path: "/projects",
+  },
   // {
   //   text: "Projects",
   //   path: "/projects",

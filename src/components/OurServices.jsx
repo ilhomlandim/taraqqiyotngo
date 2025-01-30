@@ -30,7 +30,7 @@ export default function OurServices() {
   return (
     <section className="py-14">
       <div className="base-container">
-        <h2 className="text-3xl font-bold mb-10 text-center md:text-4xl">
+        <h2 className="text-3xl font-bold mb-10 md:text-4xl">
           {t("pageService")}
         </h2>
         <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
