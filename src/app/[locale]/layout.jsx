@@ -27,6 +27,7 @@ export default async function RootLayout({ children, params: { locale } }) {
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
+
         <ScrollToTopButton />
       </body>
     </html>
