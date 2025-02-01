@@ -15,7 +15,7 @@ export default function Statistics() {
             initial={{ x: -200, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
           >
-            <div className="text-center w-[80%]">
+            <div className="text-center mx-auto w-[80%]">
               <h3 className="font-medium text-3xl">+17499</h3>
               <p>{t("box1")}</p>
             </div>
@@ -25,7 +25,7 @@ export default function Statistics() {
             initial={{ x: 200, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
           >
-            <div className="text-center w-[80%]">
+            <div className="text-center mx-auto w-[80%]">
               <h3 className="font-medium text-3xl">+829</h3>
               <p>{t("box2")}</p>
             </div>
