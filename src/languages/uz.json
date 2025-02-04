@@ -18,7 +18,7 @@
 
   "Partners": { "title": "Hamkorlar" },
 
-  "OurGallery": { "title": "Bizning suratlar" },
+  "OurGallery": { "title": "Bizning suratlar", "more": "Ko'proq" },
 
   "Statistics": {
     "title": "Statistika",
