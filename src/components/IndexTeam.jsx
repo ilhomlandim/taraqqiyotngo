@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 
 export default function IndexTeam() {
   const t = useTranslations("Team");
+  const tg = useTranslations("OurGallery");
   const { locale } = useLocale();
 
   const members = [
@@ -97,7 +98,7 @@ export default function IndexTeam() {
         </div>
         <div className="flex justify-end">
           <Link className={buttonVariants()} locale={locale} href="/team">
-            Ko'proq
+            {tg("more")}
           </Link>
         </div>
       </div>
