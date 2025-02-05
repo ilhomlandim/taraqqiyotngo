@@ -35,7 +35,7 @@ export default function Partners() {
                 delay={index / 10}
               >
                 <Image
-                  className="w-full place-self-center grayscale hover:grayscale-0 transition-all"
+                  className="w-full place-self-center transition-all"
                   width={200}
                   priority
                   height={200}
