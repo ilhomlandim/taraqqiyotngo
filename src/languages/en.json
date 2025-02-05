@@ -20,7 +20,7 @@
 
   "OurGallery": { "title": "Our gallery", "more": "More" },
 
-  "ProjectDetails": { "title": "Back" },
+  "ProjectDetails": { "title": "Back", "menu": "Menu" },
 
   "Statistics": {
     "title": "Statistics",

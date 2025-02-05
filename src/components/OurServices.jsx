@@ -28,7 +28,7 @@ export default function OurServices() {
     },
   ];
   return (
-    <section className="py-14">
+    <section id="ourService" className="py-14 scroll-mt-20">
       <div className="base-container">
         <h2 className="text-3xl font-bold mb-10 md:text-4xl">
           {t("pageService")}
