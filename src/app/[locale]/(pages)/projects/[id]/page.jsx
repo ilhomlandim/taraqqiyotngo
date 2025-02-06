@@ -19,6 +19,8 @@ const Details = async ({ params }) => {
   const { id } = await params;
   const f = await getProjectsDetails(id);
 
+  console.log(f);
+
   const t = await getTranslations("ProjectDetails");
   const locale = await getLocale();
   return (

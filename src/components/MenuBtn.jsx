@@ -26,11 +26,11 @@ export default function Menubar() {
   ];
 
   useEffect(() => {
-    setOpen(!open);
+    setOpen(false);
   }, []);
 
   return (
-    <div className="relative w-[150px]">
+    <div className="relative">
       <Button
         onClick={() => {
           setOpen((prev) => !prev);
