@@ -6,6 +6,8 @@ import { useTranslations } from "next-intl";
 import LanguageChanger from "./LanguageChanger";
 import { routing, usePathname, useRouter } from "@/i18n/routing";
 import { useParams } from "next/navigation";
+import { ChevronDown } from "lucide-react";
+import Menubar from "./MenuBtn";
 
 const links = [
   {
@@ -16,10 +18,6 @@ const links = [
     text: "Projects",
     path: "/projects",
   },
-  // {
-  //   text: "Projects",
-  //   path: "/projects",
-  // },
   {
     text: "Team",
     path: "/team",
@@ -42,6 +40,11 @@ export function Desktop() {
             </li>
           );
         })}
+
+        <Button variant="ghost" asChild>
+          <Link href={`/${locale}/history`}>History</Link>
+        </Button>
+        <Menubar />
       </ul>
     </nav>
   );
@@ -67,6 +70,10 @@ export function Mobile({ open, theme, handleTheme }) {
                 </li>
               );
             })}
+            <Button className="w-full justify-start" variant="ghost" asChild>
+              <Link href={`/${locale}/history`}>History</Link>
+            </Button>
+            <Menubar />
           </ul>
         </nav>
         <div className="base-container flex gap-3 justify-center">

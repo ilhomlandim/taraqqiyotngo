@@ -18,7 +18,9 @@
 
   "Partners": { "title": "Partners" },
 
-  "OurGallery": { "title": "Our gallery" },
+  "OurGallery": { "title": "Our gallery", "more": "More" },
+
+  "ProjectDetails": { "title": "Back", "menu": "Menu" },
 
   "Statistics": {
     "title": "Statistics",
