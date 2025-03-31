@@ -8,6 +8,7 @@ import { routing, usePathname, useRouter } from "@/i18n/routing";
 import { useParams } from "next/navigation";
 import { ChevronDown } from "lucide-react";
 import Menubar from "./MenuBtn";
+import SVGComponent from "./SVGComponent";
 
 const links = [
   {
@@ -74,6 +75,8 @@ export function Mobile({ open, theme, handleTheme }) {
               <Link href={`/${locale}/history`}>History</Link>
             </Button>
             <Menubar />
+
+            <SVGComponent />
           </ul>
         </nav>
         <div className="base-container flex gap-3 justify-center">
