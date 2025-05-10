@@ -22,6 +22,8 @@ export default async function Projects() {
   const sortedYears = takeYears(sortedProjects);
   const tempYears = [];
 
+  console.log(projects);
+
   return (
     <section className="py-14 md:py-20 min-h-screen">
       <div className="base-container">
@@ -32,7 +34,7 @@ export default async function Projects() {
           <div className="w-full md:w-[70%]">
             <div className="flex flex-col gap-5">
               {sortedProjects.map(
-                ({ title, description, year }, index, own) => {
+                ({ title, description, year, id }, index, own) => {
                   const current = year?.split(".")[2];
                   const prev = own[index - 1]?.year?.split(".")[2];
                   const display = current === prev ? null : current;
@@ -50,35 +52,36 @@ export default async function Projects() {
                         </span>
                       )}
                       <div key={index}>
-                        {tempYears.includes(current) === true && "salom"}
-                        <Framer
-                          delay={index / 10}
-                          initial={{ scale: 0.5, opacity: 0 }}
-                          animate={{ scale: 1, opacity: 1 }}
-                          duration="1"
-                        >
-                          <Card className="hover:bg-primary-foreground">
-                            <CardHeader>
-                              <CardTitle className="line-clamp-3 md:line-clamp-4 xl:line-clamp-5">
-                                {title[locale]}
-                              </CardTitle>
-                              <CardDescription className="line-clamp-3">
-                                {description[locale]}
-                              </CardDescription>
-                            </CardHeader>
-                            <CardFooter>
-                              <Button
-                                className="px-0 justify-start"
-                                asChild
-                                variant="link"
-                              >
-                                <Link href={"/"}>
-                                  Batafsil <ExternalLink />
-                                </Link>
-                              </Button>
-                            </CardFooter>
-                          </Card>
-                        </Framer>
+                        <Link href={`/${locale}/projects/${id}`}>
+                          {tempYears.includes(current) === true && "salom"}
+                          <Framer
+                            delay={index / 10}
+                            initial={{ scale: 0.5, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1 }}
+                            duration="1"
+                          >
+                            <>
+                              <Card className="hover:bg-primary-foreground">
+                                <CardHeader>
+                                  <CardTitle className="line-clamp-3 md:line-clamp-4 xl:line-clamp-5">
+                                    {title[locale]}
+                                  </CardTitle>
+                                  <CardDescription className="line-clamp-3">
+                                    {description[locale]}
+                                  </CardDescription>
+                                </CardHeader>
+                                <CardFooter>
+                                  <Button
+                                    className="px-0 justify-start"
+                                    variant="link"
+                                  >
+                                    Batafsil <ExternalLink />
+                                  </Button>
+                                </CardFooter>
+                              </Card>
+                            </>
+                          </Framer>
+                        </Link>
                       </div>
                     </>
                   );

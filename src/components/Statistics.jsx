@@ -4,8 +4,11 @@ import Framer from "./Framer";
 export default function Statistics() {
   const t = useTranslations("Statistics");
   return (
-    <section className="py-16 overflow-hidden md:py-20 bg-primary-foreground">
-      <div className="base-container">
+    <section
+      id="statistics"
+      className="py-16 scroll-mt-20 md:py-20 bg-primary-foreground"
+    >
+      <div className="base-container scroll-mt-20">
         <h2 className="text-3xl font-bold mb-10 text-center md:text-4xl">
           {t("title")}
         </h2>

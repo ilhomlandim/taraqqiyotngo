@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 
 export default function IndexTeam() {
   const t = useTranslations("Team");
+  const tg = useTranslations("OurGallery");
   const { locale } = useLocale();
 
   const members = [
@@ -87,7 +88,7 @@ export default function IndexTeam() {
   ];
 
   return (
-    <section className="py-14">
+    <section id="indexTeam" className="py-14 scroll-mt-20">
       <div className="base-container">
         <h2 className="text-3xl font-bold mb-10 text-center md:text-4xl">
           {t("TeamTitle")}
@@ -97,7 +98,7 @@ export default function IndexTeam() {
         </div>
         <div className="flex justify-end">
           <Link className={buttonVariants()} locale={locale} href="/team">
-            Ko'proq
+            {tg("more")}
           </Link>
         </div>
       </div>

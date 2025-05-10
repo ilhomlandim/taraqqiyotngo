@@ -72,7 +72,7 @@ export default function Gallery() {
   ];
 
   return (
-    <section className="py-14">
+    <section id="gallery" className="py-14 scroll-mt-20">
       <h2 className="text-3xl font-bold mb-10 text-center md:text-4xl">
         {t("title")}
       </h2>

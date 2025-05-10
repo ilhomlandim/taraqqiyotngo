@@ -2,6 +2,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Header from "@/components/Header";
+import History from "@/components/History";
 import IndexHero from "@/components/IndexHero";
 import IndexTeam from "@/components/IndexTeam";
 import OurServices from "@/components/OurServices";
@@ -17,6 +18,7 @@ export default function Home() {
         <Partners />
         <IndexTeam />
         <Gallery />
+        <History />
         <OurServices />
         <Statistics />
         <Contact />

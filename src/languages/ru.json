@@ -18,7 +18,9 @@
 
   "Partners": { "title": "Партнеры" },
 
-  "OurGallery": { "title": "Наша галерея" },
+  "OurGallery": { "title": "Наша галерея", "more": " Больше" },
+
+  "ProjectDetails": { "title": "Назад", "menu": "Список" },
 
   "Statistics": {
     "title": "Статистика",
